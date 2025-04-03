@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "queue": "cpp",
-        "stack": "cpp"
+        "__locale": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
     }
 }
