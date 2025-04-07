@@ -8,8 +8,7 @@ int main()
     PriorityQueue p(6);
     (((((((p += 5) += 2) += 8) += 3) += 10) += 1) += 11) += 9;
     cout << "Count = " << (int)p << endl;
-    p.show();
-   /* while ((int)p) {
+    while ((int)p) {
         cout << (p--) << ",";
     }
     cout << endl;
@@ -18,5 +17,4 @@ int main()
     cout << "Count = " << (int)p << endl;
     cout << "Min = " << p("min") << endl;
     cout << "Max = " << p("max") << endl;
-    */
 }
